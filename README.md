@@ -1,7 +1,7 @@
-Interactional Guardianship: A State-Aware AUI Framework
+**Interactional Guardianship: A State-Aware AUI Framework**
 Sensing Cognitive Stutter and Fatigue to Mitigate Implicit Bias in Clinical Decision-Making
 
-1. The Problem: The "State-Blind" Interface
+**1. The Problem: The "State-Blind" Interface**
 Current Electronic Health Records (EHRs) treat every clinician interaction as a static, rational event. However, clinical data confirms that Implicit Bias leads to catastrophic outcomes:
 
 Cardiology: Women are 2.5× less likely to be referred to a specialist despite equal symptom prevalence.
@@ -10,10 +10,10 @@ Maternal Health: Black women face a 212% higher mortality risk than white women.
 
 The Catalyst: These disparities are amplified by Fatigue, which collapses "System 2" (Analytical) thinking and triggers a reversion to "System 1" (Heuristic/Biased) shortcuts.
 
-2. The Sensing Engine: The "Cognitive Stutter"
+**2. The Sensing Engine: The "Cognitive Stutter"**
 The framework identifies bias not as an opinion, but as Kinetic Friction. When a clinician encounters a patient profile that contradicts a subconscious prototype, a "Cognitive Stutter" occurs.
 
-Mathematical Modeling
+**Mathematical Modeling**
 
 ΔRT (Reaction Time Gap): The millisecond-level delay incurred during counter-stereotypical processing:
 
@@ -26,7 +26,7 @@ The Fatigue Multiplier (W fatigue): Implicit bias (S bias) is a latent threat; f
 P=(W fatigue ×S bias) 
 As fatigue increases, the threshold for intervention (α) dynamically lowers.
 
-3. The Architecture: Three-Way Decision (3WD) Framework
+**3. The Architecture: Three-Way Decision (3WD) Framework**
 The system analyzes telemetry in 5-second sliding windows to determine the intervention state:
 
 Negative Region (P≤β): Transparency. No intervention; flow parity maintained.
@@ -39,14 +39,14 @@ Positive Region (P≥α): Guardianship (Hard Nudges). * 3000ms Speed-Bump: Tempo
 
 Synchronous Modal Alerts: Forcing a metacognitive reset.
 
-4. Privacy & Ethical Guardrails
+**4. Privacy & Ethical Guardrails**
 Local Edge Processing: Raw (x,y) telemetry is processed locally; only derived feature windows are stored to protect the clinician's "Kinematic Fingerprint."
 
 Anonymization: SHA-256 session hashing and Temporal Noise Injection (±500ms) prevent re-identification through shift rosters.
 
 Non-Evaluative: The AUI is a real-time safety net, not a performance auditing tool.
 
-5. Key Research & Background Reading
+**5. Key Research & Background Reading**
 Foundational Theory
 
 : The original framework for measuring ΔRT and subconscious pairing (Greenwald et al.).
